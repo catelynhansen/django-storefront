@@ -6,6 +6,7 @@
         "DJOSER",
         "gunicorn",
         "simplejwt",
+        "uorme",
         "wsgi"
     ]
 }
