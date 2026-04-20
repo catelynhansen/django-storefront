@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63d5f9f6-32ea-41dc-a64b-de4e356063c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../store/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store/.idea/store.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store/playground/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../store/playground/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/signals/handlers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/Homescreen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/static/images/Daisy.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/templates/emails/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/management/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/management/commands/seed.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/management/commands/seed_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/migrations/seed.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/pagination.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/signals/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/signals/handlers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/static/store/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/validators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/likes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/likes/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/playground/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/migrations/0004_customer_store_custo_first_n_a7e990_idx_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storefront/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/storefront/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storefront/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/storefront/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tags/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tags/models.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3BKzTESJpyGaCmp8lOjrtMofvdF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.views.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/catel/Documents/storefront",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\catel\Documents\storefront\playground\static\images" />
+      <recent name="C:\Users\catel\Documents\storefront\storefront3_client" />
+      <recent name="C:\Users\catel\Documents\storefront\media" />
+      <recent name="C:\Users\catel\Documents\storefront\store\management" />
+      <recent name="C:\Users\catel\Documents\storefront\store\migrations" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\catel\Documents\storefront\store\static\store" />
+      <recent name="C:\Users\catel\Documents\storefront" />
+      <recent name="C:\Users\catel\Documents\storefront\store\management\commands" />
+      <recent name="C:\Users\catel\Documents\storefront\store\signals" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-b63d5a1f7c97-b61e75351b1f-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.22158.340" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63d5f9f6-32ea-41dc-a64b-de4e356063c5" name="Changes" comment="" />
+      <created>1774252556290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774252556290</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
