@@ -10,6 +10,15 @@ DEBUG = os.environ.get("DEBUG", "True") == "True"
 
 SECRET_KEY = os.environ.get("SECRET_KEY", "django-insecure-dev-only-key")
 
+INSTALLED_APPS += [
+    'debug_toolbar',
+    'silk',
+]
+
+MIDDLEWARE += [
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
+]
+
 if os.environ.get("RENDER"):
     DATABASES = {
         "default": dj_database_url.parse(os.environ.get("DATABASE_URL"))

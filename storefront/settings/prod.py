@@ -1,5 +1,6 @@
 import os
 from .common import *
+import dj_database_url
 
 
 DEBUG = False
@@ -13,3 +14,7 @@ ALLOWED_HOSTS = [
 ]
 
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
+
+DATABASES = {
+    "default": dj_database_url.parse(os.environ.get("DATABASE_URL"))
+}
