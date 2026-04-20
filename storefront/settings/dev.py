@@ -3,8 +3,8 @@ from .common import *
 
 DEBUG = True
 
-if DEBUG:
-    MIDDLEWARE += 'silk.middleware.SilkyMiddleware',
+# if DEBUG:
+#     MIDDLEWARE += 'silk.middleware.SilkyMiddleware',
 
 SECRET_KEY = 'django-insecure-a69n$z*k^2ks-7&mwk&51e*27(hyn-_4i#k9n9$=jd55#@l2en'
 
