@@ -1,33 +1,27 @@
 from django.core.management.base import BaseCommand
 from django.contrib.auth import get_user_model
-from django.db import connection
-from pathlib import Path
-import os
+from store.models import Collection
 
 User = get_user_model()
 
-if not User.objects.filter(username="admin").exists():
-    User.objects.create_superuser(
-        username="admin",
-        email="admin@domain.com",
-        password="1234"
-    )
-
 class Command(BaseCommand):
-    help = 'Populates the database with collections and products'
+    def handle(self, *args, **kwargs):
+        self.stdout.write("Running seed...")
 
-    def handle(self, *args, **options):
-        self.stdout.write("Populating the database...")
+        # 1. ONLY create superuser if missing
+        if not User.objects.filter(username="admin").exists():
+            User.objects.create_superuser(
+                username="admin",
+                email="admin@domain.com",
+                password="1234"
+            )
+            self.stdout.write("Superuser created")
+        else:
+            self.stdout.write("Superuser already exists")
 
-        current_dir = os.path.dirname(__file__)
-        file_path = os.path.join(current_dir, 'seed.sql')
-
-        sql = Path(file_path).read_text()
-
-        with connection.cursor() as cursor:
-            for statement in sql.split(";"):
-                stmt = statement.strip()
-                if stmt:
-                    cursor.execute(stmt)
-
-        self.stdout.write(self.style.SUCCESS("Database seeded successfully!"))
+        # 2. ONLY seed data if needed
+        if not Collection.objects.exists():
+            self.stdout.write("Seeding collections/products...")
+            # run SQL or ORM seeding here
+        else:
+            self.stdout.write("Data already exists, skipping seed")
