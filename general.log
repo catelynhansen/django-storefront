@@ -442,3 +442,4 @@ django.db.utils.OperationalError: (1054, "Unknown column 'core_user.email' in 'f
 2026-04-20 11:36:32,416 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
 2026-04-20 12:28:09,403 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
 2026-04-20 12:31:56,139 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2026-04-20 12:45:07,789 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
