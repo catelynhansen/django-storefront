@@ -1,7 +1,17 @@
 from django.core.management.base import BaseCommand
+from django.contrib.auth import get_user_model
 from django.db import connection
 from pathlib import Path
 import os
+
+User = get_user_model()
+
+if not User.objects.filter(username="admin").exists():
+    User.objects.create_superuser(
+        username="admin",
+        email="admin@domain.com",
+        password="1234"
+    )
 
 class Command(BaseCommand):
     help = 'Populates the database with collections and products'
