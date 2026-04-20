@@ -5,6 +5,7 @@
         "djoser",
         "DJOSER",
         "gunicorn",
+        "onrender",
         "simplejwt",
         "uorme",
         "wsgi"

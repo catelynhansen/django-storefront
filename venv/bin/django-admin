@@ -1,4 +1,4 @@
-#!/home/catel/projects/storefront/venv/bin/python
+#!/home/catel/projects/storefront/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

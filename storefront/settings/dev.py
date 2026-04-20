@@ -1,21 +1,25 @@
 from .common import *
+import os
+import dj_database_url
 
 
-DEBUG = True
+DEBUG = os.environ.get("DEBUG", "True") == "True"
 
 # if DEBUG:
 #     MIDDLEWARE += 'silk.middleware.SilkyMiddleware',
 
-SECRET_KEY = 'django-insecure-a69n$z*k^2ks-7&mwk&51e*27(hyn-_4i#k9n9$=jd55#@l2en'
+SECRET_KEY = os.environ.get("SECRET_KEY", "django-insecure-dev-only-key")
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'storefront3',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-        'USER': 'root',
-        'PASSWORD': 'not4uorme2c',
+if os.environ.get("RENDER"):
+    DATABASES = {
+        "default": dj_database_url.parse(os.environ.get("DATABASE_URL"))
     }
-}
+else:
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.sqlite3",
+            "NAME": BASE_DIR / "db.sqlite3",
+        }
+    }
+
 
